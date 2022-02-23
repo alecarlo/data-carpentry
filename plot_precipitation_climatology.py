@@ -7,12 +7,13 @@ Created on Wed Feb 23 18:02:41 2022
 """
 description='Plot the precipitation climatology for a given season.'
 
+import argparse
+
 import xarray as xr
 import cartopy.crs as ccrs
 import matplotlib.pyplot as plt
 import numpy as np
 import cmocean
-import argparse
 
 
 def convert_pr_units(darray):
