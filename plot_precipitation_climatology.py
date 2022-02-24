@@ -6,6 +6,7 @@ Created on Wed Feb 23 18:02:41 2022
 @author: ale
 """
 description='Plot the precipitation climatology for a given season.'
+# I included something more
 
 import argparse
 
